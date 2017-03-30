@@ -64,7 +64,7 @@ class ImageThumb
                     continue;
                 }
 
-                $this->images[$key]->thumbnailImage($width, $height);
+                $this->images[$key]->cropThumbnailImage($width, $height);
 
                 $value = str_replace(' ', '_', $value);
 
